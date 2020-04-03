@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  background-color: #ecfbfc;
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  border-radius: 7px;
+}
+
+#new-game {
+  border: solid;
+  border-width: 2px;
+  border-color: #ffc8bd;
+  border-radius: 2px;
+  padding: 8px;
+  background-color: #ecfbfc;
+  font-size: 1.1rem;
+}
+
+#roll-dice {
+  border: solid;
+  border-width: 2px;
+  border-color: #ffc8bd;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #ecfbfc;
+  font-size: 1.1rem;
+}
+
+#hold-score {
+  border: solid;
+  border-width: 2px;
+  border-color: #ffc8bd;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #ecfbfc;
+  font-size: 1.1rem;
+}
+
+.new {
+  position: relative;
+  top: 130px;
+}
+
+.dice-val {
+  display: none;
+  position: relative;
+  top: 260px;
+}
+
+.not-started {
+  display: inline;
+  position: relative;
+  top: 290px;
+}
+
+.roll {
+  position: absolute;
+  margin-left: -40.75px;
+  left: 50%;
+  top: 520px;
+}
+
+.hold {
+  position: absolute;
+  margin-left: -49.0625px;
+  left: 50%;
+  top: 580px;
+}
+
+.name0 {
+  position: relative;
+  top: 25px;
+  font-size: 1.9rem;
+}
+
+.tTotal0 {
+  position: relative;
+  top: 320px;
+  font-size: 1.3rem;
+}
+
+.score0 {
+  position: relative;
+  top: 100px;
+  font-size: 1.4rem;
+}
+
+.count0 {
+  position: relative;
+  top: 170px;
+  font-size: 5rem;
+}
+
+.name1 {
+  position: relative;
+  top: 25px;
+  font-size: 1.9rem;
+}
+
+.tTotal1 {
+  position: relative;
+  top: 320px;
+  font-size: 1.3rem;
+}
+
+.score1 {
+  position: relative;
+  top: 100px;
+  font-size: 1.4rem;
+}
+
+.count1 {
+  position: relative;
+  top: 170px;
+  font-size: 5rem;
+}
+
+.player-0-panel {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  height: 600px;
+  width: 425px;
+  top: 9%;
+  right: 50%;
+  background-color: #ffebd9;
+}
+
+.player-1-panel {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  height: 600px;
+  width: 425px;
+  top: 9%;
+  left: 50%;
+  background-color: #ffebd9;
+}
